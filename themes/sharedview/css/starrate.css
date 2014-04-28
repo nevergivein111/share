@@ -1,0 +1,85 @@
+/**** For Small star 14px **/
+.star_sm{
+	width:75px;
+	height:14px;
+	float:left;
+	background:url(../images/star.png) no-repeat;
+	position:relative;
+}
+.star_sm_5{
+	background-position:0px -361px;	
+}
+.star_sm_4{
+	background-position:0px -330px;	
+}
+.star_sm_3{
+	background-position:0px -299px;	
+}
+.star_sm_2{
+	background-position:0px -268px;	
+}
+.star_sm_1{
+	background-position:0px -237px;	
+}
+.star_sm_0{
+	background-position:0px -221px;	
+}
+
+.onestart {
+    margin:3px 4px 0 0;
+    width: 15px;
+	background:url(../images/starone.png) no-repeat;
+	float:left;
+	height:17px;
+}
+/**** For Medium star 20px **/
+.star_m{
+	width:108px;
+	height:20px;
+	float:left;
+	background:url(../images/star.png) no-repeat;
+}
+.star_m_5{
+	background-position:0px -198px;	
+}
+.star_m_4{
+	background-position:0px -154px;	
+}
+.star_m_3{
+	background-position:0px -110px;	
+}
+.star_m_2{
+	background-position:0px -66px;	
+}
+.star_m_1{
+	background-position:0px -22px;	
+}
+.star_m_0{
+	background-position:0px 0px;	
+}
+
+/**** For Big star 30px **/
+.star_b{
+	width:160px;
+	height:30px;
+	float:left;
+	background:url(../images/star.png) no-repeat;
+}
+.star_b_5{
+	background-position:0px -675px;	
+}
+.star_b_4{
+	background-position:0px -609px;	
+}
+.star_b_3{
+	background-position:0px -543px;	
+}
+.star_b_2{
+	background-position:0px -477px;	
+}
+.star_b_1{
+	background-position:0px -411px;	
+}
+.star_b_0{
+	background-position:0px -378px;	
+}

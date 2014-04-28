@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SignikaSemibold';
+    src: url('signika-semibold.eot');
+    src: url('signika-semibold.eot') format('embedded-opentype'),
+         url('signika-semibold.woff') format('woff'),
+         url('signika-semibold.ttf') format('truetype'),
+         url('signika-semibold.svg#SignikaSemibold') format('svg');
+}

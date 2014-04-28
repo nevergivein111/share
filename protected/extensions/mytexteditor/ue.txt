@@ -1,0 +1,11 @@
+<?php
+			$this->widget('MyTextEditor', array(
+				'model' => $model,
+				'value' => $model->isNewRecord ? '' : $model->tax,
+				'attribute' => 'tax',
+				'options' => array(
+					'theme_advanced_resizing' => 'true',
+					'theme_advanced_statusbar_location' => 'bottom',
+				),
+			));
+			?>

@@ -1,0 +1,13 @@
+.order_item{
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: #F4F4F4;
+  list-style: none;
+  margin-bottom: 5px;
+  width: 40%;
+}
+.sort_list{
+  margin:0!important;
+}
+

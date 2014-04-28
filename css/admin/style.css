@@ -1,0 +1,32 @@
+.errorMessage{color: #b94a48;}
+
+#manage_user_search_form{padding-left: 42px;}
+
+.view{padding-bottom: 10px;}
+
+.errorMessage2{color: rgb(231, 96, 94);font-size: 17px;padding-top: 5px;}
+
+.table-top-border {border-top:1px solid #ccc !important;}
+
+table th a.desc { background:  url('/images/admin/dt/sort_desc.png') no-repeat center right; padding-right: 15px;}
+table th a.asc { background: url('/images/admin/dt/sort_asc.png') no-repeat center right; padding-right: 15px;}
+
+.add_back_to_count{ background: rgb(109, 109, 109) repeat-x left bottom !important; }
+.add-margin-right{margin-right: 10px;}
+.search_dropdown{
+ margin-bottom: 10px;
+}
+.selectable_table tbody  tr  {cursor: pointer}
+.top_compose_button{
+  margin-bottom: 10px;
+}
+.compose_view_btn{
+  margin-right: 5px;
+}
+.order_item{
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: #F4F4F4;
+}
+

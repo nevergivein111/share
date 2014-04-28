@@ -1,0 +1,31 @@
+/* we need fix 1024 layout so don't touch this */
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 1024px;
+}
+.span12 {
+  width: 1024px;
+}
+/* complete */
+
+.compose{
+	margin:-42px -5px 0 0;	
+}	
+.rightSidebar{
+	padding-left:0.594% !important;
+	width:16.8% !important;
+}
+.proWrapper{
+	width:98%;	
+	padding:0 1%;
+}
+/*
+.centerArea{
+	width:63%;
+	padding:0 1.406%;	
+}
+*/
+
+

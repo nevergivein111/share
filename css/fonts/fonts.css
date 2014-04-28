@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'SignikaBold';
+    src: url('signika-bold.eot');
+    src: url('signika-bold.eot') format('embedded-opentype'),
+         url('signika-bold.woff') format('woff'),
+         url('signika-bold.ttf') format('truetype'),
+         url('signika-bold.svg#SignikaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SignikaLight';
+    src: url('signika-light.eot');
+    src: url('signika-light.eot') format('embedded-opentype'),
+         url('signika-light.woff') format('woff'),
+         url('signika-light.ttf') format('truetype'),
+         url('signika-light.svg#SignikaLight') format('svg');
+}
+
+@font-face {
+    font-family: 'SignikaRegular';
+    src: url('signika-regular.eot');
+    src: url('signika-regular.eot') format('embedded-opentype'),
+         url('signika-regular.woff') format('woff'),
+         url('signika-regular.ttf') format('truetype'),
+         url('signika-regular.svg#SignikaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SignikaSemibold';
+    src: url('signika-semibold.eot');
+    src: url('signika-semibold.eot') format('embedded-opentype'),
+         url('signika-semibold.woff') format('woff'),
+         url('signika-semibold.ttf') format('truetype'),
+         url('signika-semibold.svg#SignikaSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTCom75Bold';
+    src: url('helveticaneueltcom-bd.eot');
+    src: url('helveticaneueltcom-bd.eot') format('embedded-opentype'),
+         url('helveticaneueltcom-bd.woff') format('woff'),
+         url('helveticaneueltcom-bd.ttf') format('truetype'),
+         url('helveticaneueltcom-bd.svg#HelveticaNeueLTCom75Bold') format('svg');
+}
+
