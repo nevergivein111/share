@@ -40,8 +40,6 @@ $(document).ready(function(){
             <div id="tabs" style="width:100%;">
                 <ul>
                     <li><a href="#tabs-1">Listings</a></li>
-                    <li><a href="#tabs-2">Deals</a></li>
-                    <li><a href="#tabs-3">Experts</a></li>
                     <li><a href="#tabs-4">Buying Guide</a></li>
                     <li><a href="#tabs-5">Help Me Decide</a></li>
                 </ul>
@@ -94,12 +92,6 @@ $(document).ready(function(){
                     	<div class="notResult"> <h5>Sorry, no results found</h5></div>
                     <?php endif;?>
                     </div>
-                </div>
-               <div id="tabs-2" class="tabContainer" data-filter="right">
-            	 <?php $this->renderPartial("_deals") ?>
-				</div>
-				<div id="tabs-3" class="tabContainer" data-filter="no">
-                    Not have any content right now
                 </div>
                 <div id="tabs-4" class="tabContainer" data-filter="no">
                     Not have any content right now
