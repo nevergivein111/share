@@ -4545,3 +4545,1759 @@ Stack trace:
 REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
 HTTP_REFERER=http://localhost/share/category
 ---
+2014/04/28 09:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
+HTTP_REFERER=http://localhost/share/category
+---
+2014/04/28 09:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
+HTTP_REFERER=http://localhost/share/category
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49c29fbbaa486f54505f3abfafdcb65d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49c29fbbaa486f54505f3abfafdcb65d.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 09:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/04/28 10:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
+HTTP_REFERER=http://localhost/share/category
+---
+2014/04/28 10:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/b07e8321f21dd2c73012cf354712715e.JPG
+HTTP_REFERER=http://localhost/share/category
+---
+2014/05/29 07:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/31c4f60a9ce538fbbe0cd3747da751e3.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/49bc53bb29fd7beff13e50c5eacc7150.JPG
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/39824849221a5ad085198cdc86e4bcec.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e3644a4b903151cea8645505da57a84a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 07:58:52 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\share\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\share\framework\YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 C:\wamp\www\share\framework\base\CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 C:\wamp\www\share\framework\web\CWebApplication.php(337): CModule->getModule('admin')
+#3 C:\wamp\www\share\framework\web\CWebApplication.php(276): CWebApplication->createController('admin/admin')
+#4 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#5 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\share\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/share/admin/admin
+---
+2014/05/29 07:59:11 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\share\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\share\framework\YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 C:\wamp\www\share\framework\base\CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 C:\wamp\www\share\framework\web\CWebApplication.php(337): CModule->getModule('admin')
+#3 C:\wamp\www\share\framework\web\CWebApplication.php(276): CWebApplication->createController('admin/scrapePro...')
+#4 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/scrapePro...')
+#5 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\share\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/share/admin/scrapeProduct/create
+---
+2014/05/29 08:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/09c17eab6bf399b254e503d3c686070f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/09c17eab6bf399b254e503d3c686070f.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/e042fa6f53e82670cc79f1270a5ca5ee.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/79f781890058bb63526857a63551dfb5.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/dd763f5c8b274cdc6b5b6fc317bfa1e4.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/26ee5578260a5791aa2e83dbc3b6e0b2.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/acf7f36cb9e9d67923df34d3cd27412d.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/72c5e04aef89569d5833d5accbaa5978.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/product...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/product/normal/ad2297bfe1ea87bf5b4f7d0fb4a7a05a.jpg
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/product/view/acer-14-touch-screen-laptop-intel-core-i5-6gb-memory-500gb-hdd-20gb-solid-state-drive-silver-5009309
+---
+2014/05/29 08:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/product/view/acer-14-touch-screen-laptop-intel-core-i5-6gb-memory-500gb-hdd-20gb-solid-state-drive-silver-5009309
+---
+2014/05/29 08:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=2
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/aa416d23320afa571d291be76cde791d.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(92): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 08:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/product/view/acer-14-travelmate-notebook-4-gb-memory-500-gb-hard-drive-5616133
+---
+2014/05/29 08:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/product/view/acer-14-travelmate-notebook-4-gb-memory-500-gb-hard-drive-5616133
+---
+2014/05/29 08:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/6480ec96fa227a9dda2e3809706ea76f.jpg
+HTTP_REFERER=http://localhost/share/product/view/acer-156-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-steel-gray-4120137
+---
+2014/05/29 08:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/store/o...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/store/orig/36a47a451e80a788d307303c829bc96f.gif
+HTTP_REFERER=http://localhost/share/product/view/acer-156-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-steel-gray-4120137
+---
+2014/05/29 08:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-156-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-steel-gray-4120137
+---
+2014/05/29 08:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 08:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(230): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---

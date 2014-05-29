@@ -22,98 +22,7 @@
     <favorites_list name="share" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TopMenu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/TopMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="352" selection-end="362" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1734">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="databaseConfig.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/databaseConfig.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="185" selection-end="185" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="0.46303502" vertical-offset="0" max-vertical-offset="514">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/AccountController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductProcess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/ProductProcess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="41" selection-start="2126" selection-end="2148" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Newegg.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/Newegg.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="52" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2414">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="params.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/params.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/views/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="112" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -199,7 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../styleophile" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -229,14 +138,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1659091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -263,6 +172,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="112" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sharedview/views/layouts/general.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="16" selection-start="4340" selection-end="4362" vertical-scroll-proportion="-12.576923" vertical-offset="965" max-vertical-offset="1581" />
@@ -283,16 +213,14 @@
         <state line="36" column="18" selection-start="529" selection-end="539" vertical-scroll-proportion="5.8846154" vertical-offset="765" max-vertical-offset="1700" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/views/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="112" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="34" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="0.39688715" vertical-offset="323" max-vertical-offset="1717" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/TopMenu.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/params.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="731">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
@@ -304,37 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/ProductProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="41" selection-start="2126" selection-end="2148" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="0.39688715" vertical-offset="323" max-vertical-offset="1717" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/BestBuy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="430" selection-end="430" vertical-scroll-proportion="0.46303502" vertical-offset="102" max-vertical-offset="2567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/Newegg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
@@ -342,9 +239,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="352" selection-end="362" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1734">
+        <state line="14" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -356,9 +253,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="232" selection-end="232" vertical-scroll-proportion="0.46303502" vertical-offset="0" max-vertical-offset="514">
+        <state line="9" column="30" selection-start="352" selection-end="362" vertical-scroll-proportion="1.9615384" vertical-offset="153" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="112" selection-start="851" selection-end="851" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/widgets/topMenu/TopMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.317757" vertical-offset="170" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
