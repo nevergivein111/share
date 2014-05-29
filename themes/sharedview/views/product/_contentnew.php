@@ -89,7 +89,7 @@
 								<a href="<?php echo Yii::app()->createUrl('/write-review?product_id=') . $model->id; ?>" class="btnWriteReview">Edit Review</a>
 							</div>
 							<div class="proVideo">
-
+								<a href="javascript:void(0);" class="btnCollection opensmP">Collections</a>
                                 <div class="collection_block smPopup">
                                     <h4><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/spellCheck.png" height="16" width="16">Add item to Collection(s)</h4>
                                     <div class="sortingOpt">
@@ -162,8 +162,19 @@
     <div class="activityTabs">
     <div  id="tabs" style="width:100%;">
         <ul>
+            <li><a href="#tabs-1">Review</a></li>
+
             <li><a href="#tabs-3">Specification</a></li>
         </ul>
+
+        <div id="tabs-1" class="protabContainer">
+            <div class="maintabContainer" style="width:731px;margin:0;">
+            <div id="" class="product_list_main whilteBg" style="border:1px solid #CCC;">
+        <?php echo $this->renderPartial('_review_block_new',array('model' => $model,'user' => $user));?>
+    </div>
+    </div>
+    </div>
+
 
     <div id="tabs-3" class="protabContainer">
         <?php echo $this->renderPartial('_attributes',array('model' => $model));?>
