@@ -9108,3 +9108,30 @@ Stack trace:
 REQUEST_URI=/share/topTrending/index?page=2
 HTTP_REFERER=http://localhost/share/topTrending/index
 ---
+2014/05/29 10:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 10:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 10:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-156-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-steel-gray-4120137
+---
