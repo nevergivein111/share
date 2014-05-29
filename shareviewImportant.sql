@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 29, 2014 at 08:49 AM
+-- Generation Time: May 29, 2014 at 09:47 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -682,7 +682,7 @@ CREATE TABLE IF NOT EXISTS `follow` (
   PRIMARY KEY (`id`),
   KEY `fk_followerId` (`follower_id`),
   KEY `fk_followingId` (`following_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=53 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=55 ;
 
 --
 -- Dumping data for table `follow`
@@ -708,7 +708,9 @@ INSERT INTO `follow` (`id`, `follower_id`, `following_id`, `create_date`) VALUES
 (49, 38, 64, '2013-10-12 16:47:06'),
 (50, 43, 65, '2013-11-14 11:52:12'),
 (51, 43, 1, '2013-11-14 19:29:55'),
-(52, 1, 43, '2013-11-27 15:27:24');
+(52, 1, 43, '2013-11-27 15:27:24'),
+(53, 43, 91, '2014-05-29 09:23:16'),
+(54, 91, 43, '2014-05-29 09:27:12');
 
 -- --------------------------------------------------------
 
@@ -1847,16 +1849,18 @@ CREATE TABLE IF NOT EXISTS `review_comment` (
   PRIMARY KEY (`id`),
   KEY `fk_reviewId` (`review_id`),
   KEY `fk_reviewCommentUserId` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `review_comment`
 --
 
 INSERT INTO `review_comment` (`id`, `user_id`, `review_id`, `comment`, `status`, `is_deleted`, `create_date`, `update_date`, `delete_date`) VALUES
-(1, 91, 1, 'ssdds', 2, 0, '2014-05-29 08:29:20', NULL, NULL),
-(2, 91, 1, 'sdada', 2, 0, '2014-05-29 08:29:25', NULL, NULL),
-(3, 91, 1, 'fadasd', 2, 0, '2014-05-29 08:29:28', NULL, NULL);
+(1, 91, 1, 'ssdds', 1, 0, '2014-05-29 08:29:20', '2014-05-29 09:46:48', NULL),
+(2, 91, 1, 'sdada', 1, 0, '2014-05-29 08:29:25', '2014-05-29 09:46:48', NULL),
+(3, 91, 1, 'fadasd', 1, 0, '2014-05-29 08:29:28', '2014-05-29 09:46:48', NULL),
+(4, 43, 1, 'dddfds', 1, 0, '2014-05-29 09:27:41', '2014-05-29 09:46:48', NULL),
+(5, 91, 1, 'funck y', 1, 0, '2014-05-29 09:34:11', '2014-05-29 09:46:48', NULL);
 
 -- --------------------------------------------------------
 
@@ -1877,14 +1881,15 @@ CREATE TABLE IF NOT EXISTS `review_product` (
   PRIMARY KEY (`id`),
   KEY `fk_review_user` (`user_id`),
   KEY `fk_review_product` (`product_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `review_product`
 --
 
 INSERT INTO `review_product` (`id`, `user_id`, `product_id`, `text`, `status`, `create_date`, `update_date`, `is_deleted`, `delete_date`) VALUES
-(1, 91, 4, '<p>grat man maza ahh giya</p>', 1, '2014-05-29 08:28:23', '2014-05-29 08:28:23', 0, NULL);
+(1, 91, 4, '<p>grat man maza ahh giya</p>', 1, '2014-05-29 08:28:23', '2014-05-29 08:28:23', 0, NULL),
+(2, 43, 4, '<p>ddddfdsfdfsf</p>', 2, '2014-05-29 09:28:47', '2014-05-29 09:28:47', 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -1904,7 +1909,7 @@ CREATE TABLE IF NOT EXISTS `review_product_component` (
   PRIMARY KEY (`id`),
   KEY `fk_review_component_user` (`review_product_id`),
   KEY `fk_review_component_product` (`component_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Dumping data for table `review_product_component`
@@ -1917,7 +1922,14 @@ INSERT INTO `review_product_component` (`id`, `review_product_id`, `component_id
 (4, 1, 4, '4', '2014-05-29 08:28:23', NULL, 0, NULL),
 (5, 1, 5, '3', '2014-05-29 08:28:23', NULL, 0, NULL),
 (6, 1, 66, '3', '2014-05-29 08:28:23', NULL, 0, NULL),
-(7, 1, 90, '4', '2014-05-29 08:28:23', NULL, 0, NULL);
+(7, 1, 90, '4', '2014-05-29 08:28:23', NULL, 0, NULL),
+(8, 2, 1, '5', '2014-05-29 09:28:47', NULL, 0, NULL),
+(9, 2, 2, '4', '2014-05-29 09:28:48', NULL, 0, NULL),
+(10, 2, 3, '4', '2014-05-29 09:28:48', NULL, 0, NULL),
+(11, 2, 4, '3', '2014-05-29 09:28:48', NULL, 0, NULL),
+(12, 2, 5, '4', '2014-05-29 09:28:48', NULL, 0, NULL),
+(13, 2, 66, '4', '2014-05-29 09:28:48', NULL, 0, NULL),
+(14, 2, 90, '2', '2014-05-29 09:28:48', NULL, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -2078,14 +2090,14 @@ CREATE TABLE IF NOT EXISTS `store` (
 
 INSERT INTO `store` (`id`, `name`, `image`, `is_deleted`, `delete_date`, `create_date`, `update_date`) VALUES
 (1, 'first', '8d48036746c9bff944e8a8a183115df3.jpg', 1, '2013-07-24 08:18:02', '2013-07-24 08:17:58', '2013-07-24 08:18:02'),
-(2, 'Amazon', 'aa416d23320afa571d291be76cde791d.jpg', 0, NULL, '2013-07-24 10:21:19', '2013-11-26 20:04:46'),
-(3, 'Best Buy', '36a47a451e80a788d307303c829bc96f.gif', 0, NULL, '2013-07-24 10:21:36', NULL),
-(4, 'Apple Store', '4bbb28a00dedf7745c01c5701091f0c7.png', 0, NULL, '2013-07-24 10:21:50', NULL),
+(2, 'Amazon', 'b3c3d5b4a99da83006d874f31e5680d9.jpg', 0, NULL, '2013-07-24 10:21:19', '2014-05-29 09:01:49'),
+(3, 'Best Buy', '726b71c245866f3c26dce140b9128d8b.jpg', 0, NULL, '2013-07-24 10:21:36', '2014-05-29 09:02:01'),
+(4, 'Apple Store', '019d7ca54e6c248a7f7357f8d691dfe3.jpg', 0, NULL, '2013-07-24 10:21:50', '2014-05-29 09:02:11'),
 (5, 'Flip Kart', '5eb5f056ed91a1cc636978b00c5aa11c.png', 1, '2013-08-02 10:40:58', '2013-07-24 10:22:58', '2013-08-02 10:40:58'),
 (6, 'Ebay', '8be91220906515305df2f2553fad14e2.jpeg', 1, '2013-08-02 10:40:54', '2013-07-24 10:27:12', '2013-08-02 10:40:54'),
 (7, 'Home Shop', '16e2572b061e12dcbd94e87a7acecae2.jpg', 1, '2013-08-02 10:40:51', '2013-07-24 10:28:30', '2013-08-02 10:40:51'),
 (8, 'Crutchfield', '59a518c651f395caabe0ddd9b6ba5879.jpg', 1, '2013-08-02 13:17:04', '2013-08-02 10:43:04', '2013-08-02 13:17:04'),
-(9, 'Newegg', '6480ec96fa227a9dda2e3809706ea76f.jpg', 0, NULL, '2013-08-02 13:18:53', NULL);
+(9, 'Newegg', '0917bc9c217a3d6e103a6b559604fa7a.jpg', 0, NULL, '2013-08-02 13:18:53', '2014-05-29 09:02:21');
 
 -- --------------------------------------------------------
 
@@ -3337,7 +3349,7 @@ INSERT INTO `user` (`id`, `email`, `password`, `firstname`, `lastname`, `image`,
 (5, 'sve@admin.com', 'ba49407fa403a39453c8b77d2783cf6ba7dfaa95ec672b04eb5d879c0fa337f9ad14b466e90b9db074b1a9002061adc4781b63d8058846b662f3fc4ba8b1b352', 'Svetlozar', 'Penev', NULL, 'Male', '//', NULL, 1, 0, NULL, '2013-11-14 12:09:16', '2013-07-12 14:54:54', '2013-11-14 12:09:16', '1'),
 (35, 'renuser@vprex.com', 'b1c98531ab654619545ce4f95d14c5788b1e2e4d00c1780eeead7a4f9b9e73ffcece95148aaa5f3892771b1d4fea85f9e09db233b6ad8baed64d5f5661918a9f', 'Renuka', 'Shah', NULL, 'Female', NULL, 'bmW1enCWDxDqRvzvs!vjmtJsA7CD!7hM', 2, 0, NULL, '2013-07-26 05:37:48', '2013-07-17 04:51:29', '2013-07-26 05:37:48', '3'),
 (38, 'donmj3@gmail.com', 'd2c54b3de0fd51694f0210acd14f7a45f7a63c67ca3573611a7908edfb096080408109e5f87f00ae23e0e23c57678dc25cb8da396468f9df4c805b0dfb79fc77', 'Donny', 'Joyce', 'e0c4b2aad70a4109ed5c0e4bf8c40a99.jpg', 'Male', '//', '_mSCjyc*8xYGQMC4fBXYhES2Y6z1D3YU', 1, 0, NULL, '2013-12-02 16:56:27', '2013-07-18 21:33:06', '2013-12-02 16:56:27', '1'),
-(43, 'ren@vprex.com', 'ba49407fa403a39453c8b77d2783cf6ba7dfaa95ec672b04eb5d879c0fa337f9ad14b466e90b9db074b1a9002061adc4781b63d8058846b662f3fc4ba8b1b352', 'Renuka', 'Shah', 'b07e8321f21dd2c73012cf354712715e.JPG', 'Female', '//', 'BZ4A4x4eULHVYHtMsLvaNTm!tx5GCii5', 2, 0, NULL, '2014-05-29 08:33:26', '2013-07-19 05:44:48', '2014-05-29 08:33:26', '1'),
+(43, 'ren@vprex.com', 'ba49407fa403a39453c8b77d2783cf6ba7dfaa95ec672b04eb5d879c0fa337f9ad14b466e90b9db074b1a9002061adc4781b63d8058846b662f3fc4ba8b1b352', 'Renuka', 'Shah', 'b07e8321f21dd2c73012cf354712715e.JPG', 'Female', '//', 'BZ4A4x4eULHVYHtMsLvaNTm!tx5GCii5', 2, 0, NULL, '2014-05-29 09:23:03', '2013-07-19 05:44:48', '2014-05-29 09:23:03', '1'),
 (45, 'donte@vprex.com', 'c7d92eced2172511940863d304c245ec140036d26ce2af3805a034c99ee578c630302b448b3e5314dfc45a67aef09dd09ddfd11816d8d56ce7f8d20892995862', 'Donte', 'Dinish', NULL, NULL, '//', 'kdKZ*KM78naC0oAw9eI902nZPg2soQOe', 1, 0, NULL, '2013-07-30 19:42:30', '2013-07-23 06:16:05', '2013-10-10 12:46:44', '2'),
 (57, 'gurgen.gharibyan@gmail.com', '@gHd!;', 'sdasdasdas', 'sadasdasd', NULL, NULL, NULL, 'ltPV3lhDdGG5OMGjJpjThhbM9pbEoZjj', 1, 0, NULL, '2013-07-24 10:18:15', '2013-07-24 10:17:30', '2013-07-24 10:23:19', '2'),
 (60, 'bryantan16@gmail.com', '46764889e3b23471eeb7ffbc7697d5e54bd77b48b36d8556f4787bf0142b58b1464dd0e60472396fce3eb71c136dcd23bf837b65f1e38bd21750b8244190aab1', 'Bryan', 'Tan', NULL, 'male', '1988-12-16', 'v0FMvzw2JqM4CEIdYSQg661HdTq!lErx', 1, 0, NULL, NULL, '2013-07-26 08:32:18', NULL, '2'),
@@ -3359,7 +3371,7 @@ INSERT INTO `user` (`id`, `email`, `password`, `firstname`, `lastname`, `image`,
 (87, 'renshah03@gmail.com', '96e2e8624cac1fee175e73d652e94d986a1cf7645de1100fd42f461effc2835e921adede0c7139003c17c2353d48e276a880bcd8683951a1a3d6c0ecad6ecadb', 'Renuka 3', 'Shah', NULL, NULL, '//', '0aGF7.2h-vWTf!my.AjxeuUVnO6bjoFN', 2, 0, NULL, '2013-10-10 12:20:12', '2013-10-08 06:38:25', '2013-10-10 12:21:52', '2'),
 (89, 'style2speed@yahoo.com', '4832534d69ec87add1793eeccb9f0aaf9aa36d4852b229a8eb2f76cbc47429143c90f9a85f7d4e6ead1d51e942a54f08994ddb86c27703ad7debd75050914244', 'Mohsin', 'Saeed', NULL, 'male', '//', 'wORshrLCGI8KpWEevUNh_Px.z-EnfPNH', 1, 0, NULL, '2013-11-11 10:46:49', '2013-11-11 10:46:49', '2013-11-14 11:48:06', '2'),
 (90, 'hem@vprex.com', '73dbb3f5ccaf78f9946d1d61a533c408dc238f36e6dc227592ada4a668742ce034b79a1f1f1c9a88e4b4e2132698a6e51477148c5444a0f88fe8b7505739b143', 'Hem', 'Gadani', NULL, 'female', '//', 'sZrUb.EsLL_GPx!WbwIA1Vs6No.aTf*g', 1, 0, NULL, '2013-11-27 18:27:24', '2013-11-27 18:27:24', '2013-11-27 18:27:24', '2'),
-(91, 'nevergivein111@gmail.com', '17c8f2c5148eb42605e3e2ed15a91d83b9e0a73c8e7f1504228385265655965a7db76619d9511a1941de0fce4ca584526e4bf7794a8204631bfa1156407967e9', 'khan', 'shab', NULL, NULL, '19/12/1993', 'zWFU734AkphnzWcAZhuY-eTHygC9-yCT', 1, 0, NULL, '2014-05-29 08:40:08', '2014-05-29 08:26:18', '2014-05-29 08:40:08', '2');
+(91, 'nevergivein111@gmail.com', '17c8f2c5148eb42605e3e2ed15a91d83b9e0a73c8e7f1504228385265655965a7db76619d9511a1941de0fce4ca584526e4bf7794a8204631bfa1156407967e9', 'khan', 'shab', '20e1de4b7d09b0ec5a504b3bb159b53a.jpg', NULL, '19/12/1993', 'zWFU734AkphnzWcAZhuY-eTHygC9-yCT', 1, 0, NULL, '2014-05-29 09:02:59', '2014-05-29 08:26:18', '2014-05-29 09:03:18', '2');
 
 -- --------------------------------------------------------
 
@@ -3376,7 +3388,7 @@ CREATE TABLE IF NOT EXISTS `view_product` (
   PRIMARY KEY (`id`),
   KEY `fk_product_view_id` (`product_id`),
   KEY `fk_product_view_user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 --
 -- Dumping data for table `view_product`
@@ -3388,7 +3400,12 @@ INSERT INTO `view_product` (`id`, `product_id`, `user_id`, `ip`, `create_date`) 
 (3, 4, 91, NULL, '2014-05-29 08:27:47'),
 (4, 4, NULL, '::1', '2014-05-29 08:39:53'),
 (5, 5, 91, NULL, '2014-05-29 08:42:27'),
-(6, 6, 91, NULL, '2014-05-29 08:44:28');
+(6, 6, 91, NULL, '2014-05-29 08:44:28'),
+(7, 6, NULL, '::1', '2014-05-29 08:58:48'),
+(8, 8, NULL, '::1', '2014-05-29 08:58:50'),
+(9, 13, NULL, '::1', '2014-05-29 08:58:52'),
+(10, 13, 43, NULL, '2014-05-29 09:02:26'),
+(11, 4, 43, NULL, '2014-05-29 09:28:30');
 
 -- --------------------------------------------------------
 

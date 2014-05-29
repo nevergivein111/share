@@ -89,7 +89,7 @@
 								<a href="<?php echo Yii::app()->createUrl('/write-review?product_id=') . $model->id; ?>" class="btnWriteReview">Edit Review</a>
 							</div>
 							<div class="proVideo">
-								<a href="javascript:void(0);" class="btnCollection opensmP">Collections</a>
+
                                 <div class="collection_block smPopup">
                                     <h4><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/spellCheck.png" height="16" width="16">Add item to Collection(s)</h4>
                                     <div class="sortingOpt">
@@ -162,102 +162,9 @@
     <div class="activityTabs">
     <div  id="tabs" style="width:100%;">
         <ul>
-            <li><a href="#tabs-1">Review</a></li>
-            <li><a href="#tabs-2">Media</a></li>
             <li><a href="#tabs-3">Specification</a></li>
         </ul>
 
-        <div id="tabs-1" class="protabContainer">
-            <div class="maintabContainer" style="width:731px;margin:0;">
-            <div class="proSummary">
-            <div class="prolBlock">
-            <div class="proHeader">
-                    Highlights (3)
-            </div>
-            <div class="proRows">
-                    <div class="proRow">
-                    <div class="prodImg"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/profile_pic.png" alt="" /></div>
-                    <div class="proDesc">
-                        <span>This laptop is very lightweight and fit great in a small backpack.</span>
-                        <span class="totalreview">in 71 reviews</span>
-                    </div>
-
-                </div>
-                <div class="proRow">
-                    <div class="prodImg"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/profile_pic.png" alt="" /></div>
-                    <div class="proDesc">
-                            <span>This laptop is very lightweight and fit great in a small backpack.</span>
-                        <span class="totalreview">in 71 reviews</span>
-                    </div>
-
-                </div>
-                <div class="proRow">
-                    <div class="prodImg"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/profile_pic.png" alt="" /></div>
-                    <div class="proDesc">
-                            <span>This laptop is very lightweight and fit great in a small backpack.</span>
-                        <span class="totalreview">in 71 reviews</span>
-                    </div>
-                </div>
-                <div class="more_review">
-                    <a href="#">More review highlights</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="proRBlock">
-            <div class="proHeader">
-                    Rating Distribution
-            </div>
-            <div class="rateRows">
-                    <div class="rate">
-                    <div class="rateTxt">5 star</div>
-                    <div class="rateBar">
-                            <div class="progress color5" style="width:45%;"></div>
-                    </div>
-                    <div class="rateScore">45</div>
-                </div>
-                <div class="rate">
-                    <div class="rateTxt">4 star</div>
-                    <div class="rateBar">
-                            <div class="progress color4" style="width:12%;"></div>
-                    </div>
-                    <div class="rateScore">12</div>
-                </div>
-                <div class="rate">
-                    <div class="rateTxt">3 star</div>
-                    <div class="rateBar">
-                            <div class="progress color3" style="width:38%;"></div>
-                    </div>
-                    <div class="rateScore">38</div>
-                </div>
-                <div class="rate">
-                    <div class="rateTxt">2 star</div>
-                    <div class="rateBar">
-                            <div class="progress color2" style="width:71%;"></div>
-                    </div>
-                    <div class="rateScore">71</div>
-                </div>
-                <div class="rate">
-                    <div class="rateTxt">1 star</div>
-                    <div class="rateBar">
-                            <div class="progress color1" style="width:2%;"></div>
-                    </div>
-                    <div class="rateScore">2</div>
-                </div>
-            </div>
-        </div>
-    </div>
-            <div id="" class="product_list_main whilteBg" style="border:1px solid #CCC;">
-        <?php echo $this->renderPartial('_review_block_new',array('model' => $model,'user' => $user));?>
-    </div>
-    </div>
-    </div>
-
-    
-    <div id="tabs-2" class="protabContainer mediaTab">
-        <?php //echo $this->renderPartial('_review_block_new',array('model' => $model,'user' => $user));?>
-        <?php echo $this->renderPartial('_media',array('model' => $model));?>
-    </div>
     <div id="tabs-3" class="protabContainer">
         <?php echo $this->renderPartial('_attributes',array('model' => $model));?>
     </div>
