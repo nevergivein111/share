@@ -5,8 +5,7 @@
 
 $baseurl = Yii::app()->theme->baseUrl;
 $clientscript = Yii::app()->clientScript;
-//$clientscript->registerCssFile($baseurl . '/css/reset.css');
-//$clientscript->registerCssFile($baseurl . '/css/style.css');
+
 ?>
 
 <div class="social-tools" id="social-tools">
@@ -23,7 +22,7 @@ $clientscript = Yii::app()->clientScript;
 
 <div class="advertise">
     <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/advertise1.jpg" alt="Advertise"/>
-    <?php // echo CHtml::image(Yii::app()->createUrl('themes/sharedview/images/advertise1.jpg')) ; ?>
+    
 </div>
 
 
@@ -46,8 +45,7 @@ $clientscript = Yii::app()->clientScript;
                 <div id="tabs-6">
                     <?php
 
-                    //$rawData = $model->getFollowing();
-                    $rawData = $model->follows;
+                   $rawData = $model->follows;
 
                     $dataProvider = new CArrayDataProvider($rawData, array(
                         'pagination' => array(
@@ -68,7 +66,6 @@ $clientscript = Yii::app()->clientScript;
                 <div id="tabs-7">
                     <?php
 
-                    //$rawData = $user->getFollowers();
                     $rawData = $model->follows1;
                     $dataProvider = new CArrayDataProvider($rawData, array(
                         'pagination' => array(

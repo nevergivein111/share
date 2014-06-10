@@ -38,12 +38,12 @@
 				$("div.star-rating").removeClass("rate1 rate2 rate3 rate4 rate5");
 				var rateTxtClass = $(this).parent().attr("id");
 				var tip = $("." + rateTxtClass);
-				//$(tip).html(tip[0].data || '');
+				
 				var lastText = $(".hid-" + rateTxtClass).val();
 				(tip).html(lastText);
 			},
 			callback: function(value, link){
-				//alert(link.title);
+				
 				var rateObjId = $(this).parent().attr("id");
 				var rateChild = $("#" + rateObjId).find(".star-rating-on");
 				var rateAllChild = $("#" + rateObjId).find(".star-rating");

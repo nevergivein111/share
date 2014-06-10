@@ -13,7 +13,7 @@ $this->widget('ext.yiinfinite-scroll.YiinfiniteScroller',array(
 		  'loadingText' => 'Loading...',
 		  'donetext' => 'This is the end... my only friend, the end',
 		  'pages' => $model->pages,
-//		  'isDone'=>'js:function(){alert()}'
+
 ));
 
 } else

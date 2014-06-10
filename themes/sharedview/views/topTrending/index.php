@@ -1,12 +1,7 @@
 <?php
     $baseurl = Yii::app()->theme->baseUrl;
     $clientscript = Yii::app()->clientScript;
-    //$clientscript->registerCssFile($baseurl . '/css/carousel.css');
-    //$cs=Yii::app()->clientScript;
-    //$cs->scriptMap=array(
-    //    'style.css'=>false,
-    //);
-    //$clientscript->registerCssFile($baseurl . '/css/style_home1.css');
+  
     $clientscript->registerScriptFile($baseurl . '/js/jquery.mousewheel.min.js',CClientScript::POS_END);
 
 ?>
@@ -61,20 +56,7 @@
                     </div>
                     <input type="hidden" id="sort_by_attr" value="<?php echo Yii::app()->session['sort_by'];?>"/>
                     <input type="hidden" id="filter_cat_id" value='<?php echo Yii::app()->session['cat_id'];?>'/>
-    <!--                  <div class="sort_dropdown">
-                          <div class="dropdown custom_dropdown">
-                              <a id="ddSortby" role="button" data-toggle="dropdown" data-target="#" href="/page.html">Sort By <span class="caret"></span>
-                              </a>
-                              <ul class="dropdown-menu" id="sorting_by" role="menu" aria-labelledby="ddSortby" style="left:-65px;min-width:140px;">
-                                   <?php // foreach($model->getSortBy() as $key => $sort):?>
-                                        <li class="dropdown_sort_by_holder <?php // echo ($key == Yii::app()->session['sort_by']) ? 'checked_filter_active' : ''?>" data-value="<?php // echo $key?>" >
-                                             <a href="#"><?php // echo $sort?></a>
-                                        </li>
-                                   <?php // endforeach;?>
-                              </ul>
-                          </div>
-                    </div>
--->
+    
                 </div>
                 <div class="catlist_wrapper">
                     <?php $categories = Category::model()->showCategory()->published()->orderByOrdering()->findAll();?>
@@ -117,7 +99,7 @@
             </div>
         </div>
     </div>
-    <?php //$this->renderPartial('_right');?>
+   
 </div>
 
 <script type="text/javascript">
@@ -157,7 +139,7 @@
 	function searchTopTranding(cat_id, sort_by){
 
 		$('#loader_image').show();
-		//$('#product_holders').html('');
+		
 		$.ajax({
 			url:'<?php echo Yii::app()->createUrl('topTrending/list')?>',
 			type:'POST',

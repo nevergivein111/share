@@ -67,8 +67,7 @@
 						<?php echo $form->dropDownList($model, 'day', Additional::getDays(), array('prompt' => 'Day', 'class' => ($model->hasErrors("birthday") && !$model->day) ? "error_input" : ""));?>
 						<?php echo $form->dropDownList($model, 'year', Additional::getYears(1960, 2010), array('prompt' => 'Year', 'class' => ($model->hasErrors("birthday") && !$model->year) ? "error_input" : ""));?>
 						<?php echo $form->error($model, 'birthday', array('class' => 'error_message_register'));?>
-						<!--<a href="#" class="birthday_info">Why do I need to<br>provide my birthday?</a>-->
-
+						
 					</div>
 					<div class="reg_bottom">
 						<div class="agree_checkbox">

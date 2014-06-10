@@ -10,39 +10,6 @@
 	
 		var query = $(this).val();
 
-//		$('.typeahead').typeahead({
-//			minLength: 3,
-//			items:8,
-//			source: function (query, process) {
-//				return $.get(url, { query: query }, function (data) {
-//					var newData = data.map(function (item) {
-//						var aItem = { pid: item.pid, name: item.name, photo:item.photo, link:item.link };
-//						return JSON.stringify(aItem);
-//					});
-//                
-//					return process(newData);
-//					
-//				},"json");
-//			},
-//			matcher: function (item) {
-//				return true;
-//			},
-//
-//			highlighter: function(obj) {
-//				var item = JSON.parse(obj);
-//				if(item.pid != 0){
-//					var text = '<div class="search_img_typehead"><img src="'+item.photo+'"/></div><div class="search_name_type">'+item.name+'</div>';
-//				}else{
-//					var text = item.name;
-//				}
-//				return text;
-//			},
-//			updater: function (obj) { // What gets sent to the input box
-//				var item = JSON.parse(obj);
-//				window.location.href=item.link;
-//			}
-//
-//		});
 	});
 
 

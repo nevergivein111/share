@@ -69,7 +69,7 @@ $form = $this->beginWidget('CActiveForm', array(
 
 	<div class="reg_field">
 		<label class="loginLbl">Password</label>
-		<?php // echo $form->label($model,'password',array('class' => 'loginLbl'));?>
+		
 		<div class="loginInput">
 			<?php echo $form->passwordField($model, 'password', array('class' => $model->hasErrors("password") ? "input_error" : ""));?>
 			<?php echo $form->error($model, 'password', array('class' => 'error_message_login'));?>

@@ -1,8 +1,6 @@
 <?php
     $baseurl = Yii::app()->theme->baseUrl;
     $clientscript = Yii::app()->clientScript;
-    //$clientscript->registerCssFile($baseurl . '/css/reset.css');
-    //$clientscript->registerCssFile($baseurl . '/css/style.css');
     $cs=Yii::app()->clientScript;
 ?>
 <script>

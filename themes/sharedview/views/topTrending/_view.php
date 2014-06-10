@@ -22,11 +22,7 @@
                 </div>
                 <div class="smRateDetail"> <?php echo $data->getReviewCountText();?> </div>
 				<?php if((!empty($data->lastReview))):?>
-                    <!--
-                    <span class="createdDate">
-                    	Last Reviewed <?php // echo Additional::TimeAgoFormat($data->lastReview[0]->create_date);?>
-                    </span>
-                    -->
+                    
                 <?php endif;?>
                 <div class="trending">
                     <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/profile_pic7.jpg" alt="Dilon"  />

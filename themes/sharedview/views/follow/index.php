@@ -15,9 +15,6 @@
     
 </div>
 
-<!--<div class="advertise">
-    <img src="images/advertise.jpg" alt="Advertise" />
-</div>-->
 <div class="mainContainer ">
 
     <div class="leftsideBar">

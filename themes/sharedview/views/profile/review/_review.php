@@ -22,9 +22,7 @@
 					<?php $this->widget('application.components.widgets.stars.Stars',array('size' => 'big','rating' => $review->getOverall()));?>
 					<div class="rating_details"><a style="padding-left:5px;" href="#" class="reviewDetails">Rating Details</a></div>
 				</div>
-				<!-- <div class="actDate" style="margin-top:0;">
-					<?php echo date('m/d/Y',strtotime($review->update_date))?>
-				</div> -->
+				
 			</div>
 		</div>
 		<div class="prodsDetail" style="width:100%;">

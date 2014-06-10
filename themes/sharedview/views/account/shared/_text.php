@@ -37,6 +37,6 @@
 			),
 		));?>
 	</div>
-	<?php //echo $form->error($model, 'text'); ?>
+	
 </div>
 

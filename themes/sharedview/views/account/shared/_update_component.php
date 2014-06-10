@@ -39,7 +39,7 @@
 					var averageVal = totalVal / totalNum;
 					var gap = Math.ceil(averageVal) - 1;
 					var overallRate = (starSize * averageVal) + (5 * gap);
-					//alert(Math.ceil(averageVal));
+					
 					$(".avarageRate").css({
 						background:"url(<?php echo Yii::app()->theme->baseUrl;?>/images/star" + (Math.ceil(averageVal)) + ".png)",
 						width:overallRate

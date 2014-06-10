@@ -15,10 +15,7 @@
 				<?php if (Yii::app()->user->id != $model->id): ?>
 					<?php $this->renderPartial('_follow_button',array('follower_id'=>Yii::app()->user->id,'following_id'=>$model->id))?>
 				<?php endif; ?>
-                <!--
-                <span>2. 830 points</span>
-                <span><img src="<?php echo Yii::app()->theme->baseUrl ?>/images/icElectronics.png" width="22px" alt="Profiler name" />Electronics</span>
-                -->
+               
             </div>
         </div>
 

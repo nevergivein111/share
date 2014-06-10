@@ -26,9 +26,7 @@ $key = 0;
 <script type="text/javascript">
     $(document).ready(function() {
         $.each($(".checkbox_product_page[checked]"), function(index, value) {
-           // var data_type = $(value).parents('div.brand_wrapper').attr('data-type');
-           // debugger;
-            //seeAllClick($('.filter_see_all[data-type="' + data_type + ']"'));
+           
         });
 
         $.each($(".dropdown_product_holder"), function(index, value) {
@@ -54,10 +52,7 @@ $key = 0;
             seeAllClick($(this))
         });
 
-        //$(".checkbox_product_page[checked]").parents('.brand_block').hide();
-        //$(".checkbox_product_page[checked]").parents('.brand_block').next().hide()
-
-        $(".remove_from_filter").on("click", function() {
+            $(".remove_from_filter").on("click", function() {
             $(".checkbox_product_page[checked][data-value='" + $(this).attr('data-value') + "']").val(0);
             $(".checkbox_product_page[checked][data-value='" + $(this).attr('data-value') + "']").click();
         });

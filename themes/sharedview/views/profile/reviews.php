@@ -21,22 +21,7 @@ $categories = Category::getCats($rawData);
 	<input type="hidden" id="filter_filter_id" value="<?php echo Product::RECENTLY_ADDED; ?>"/>
 	<span style="color:#2f3535;"> Filter By : &#9658</span> 
     <a href="#" class="active" style="color:#0088CC;">Category</a> 
-	<!--
-	<?php if(count($categories)>0):?>
-        <span> Category :</span>
-        <a href="#" class="category_filter_ing active">All</a> |
-                <?php foreach($categories as $key=>$category):?>
-                    <a href="#" class="category_filter_ing" data-value="<?php echo $key;?>">
-                    <?php echo $category;?>
-                    </a>
-                    <?php if($k != count($categories)):?>
-                            |
-                    <?php endif;?>
-                    <?php $k++;?>
-                <?php endforeach;?>
-    <?php endif;?>
-	-->
-
+	
     <div class="sort_dropdown" style="top:10px;right:10px;width:98%;text-align:right;">
         <div class="dropdown custom_dropdown">
         	<div class="middleLine"></div>

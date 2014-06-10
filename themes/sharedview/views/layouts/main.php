@@ -32,22 +32,9 @@
             </div>
         </div>
 </div>
-<!--<div class="row-fluid header headerPattern">
-	<div class="container fixContainer">
-		<div class="row-fluid">
-			<div class="span12" align="center">
-				<a href="<?php // echo Yii::app()->createUrl('site/');?>">
-					<img src="<?php // echo Yii::app()->theme->baseUrl;?>/images/logo.png" alt="Logo" class="logo"
-						 style="margin-left:0;"/>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>-->
+
 <!-- End of Header container -->
 <?php echo $content; ?>
-
-<?php //$this->widget('application.modules.hybridauth.widgets.renderProviders'); ?>
 
 </body>
 </html>

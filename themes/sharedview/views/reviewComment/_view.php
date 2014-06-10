@@ -22,10 +22,6 @@
 	<?php echo GxHtml::encode($data->getAttributeLabel('update_date')); ?>:
 	<?php echo GxHtml::encode($data->update_date); ?>
 	<br />
-	<?php /*
-	<?php echo GxHtml::encode($data->getAttributeLabel('delete_date')); ?>:
-	<?php echo GxHtml::encode($data->delete_date); ?>
-	<br />
-	*/ ?>
+	
 
 </div>
