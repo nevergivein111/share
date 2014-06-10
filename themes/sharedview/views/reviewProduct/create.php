@@ -1,8 +1,8 @@
 <?php
 $baseurl = Yii::app()->theme->baseUrl;
 $clientscript = Yii::app()->clientScript;
-$clientscript->registerCssFile($baseurl . '/css/carousel.css');
-$clientscript->registerCssFile($baseurl . '/css/style_home1.css');
+//$clientscript->registerCssFile($baseurl . '/css/carousel.css');
+//$clientscript->registerCssFile($baseurl . '/css/style_home1.css');
 ?>
 <div class="mainContainer">
     <?php

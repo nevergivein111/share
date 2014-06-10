@@ -9,18 +9,20 @@
 		<link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl;?>/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/fonts/fonts.css" media="all">
 		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap.css" media="all">
-                <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/overwrite.css" media="all">
-		<!--<link rel="stylesheet" href="<?php // echo Yii::app()->theme->baseUrl;?>/css/style.css" media="all">-->
-              
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/desktop.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_our.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/selectbox.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/plugin/css/jquery.rating.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/profilePopup.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery.spellchecker.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery-ui.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/starrate.css" rel="stylesheet">
-                <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_header.css" rel="stylesheet">
+                <!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/overwrite.css" media="all">-->
+		<!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/style.css" media="all">-->
+         
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_our.css" media="all"> 
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/plugin/css/jquery.rating.css" rel="stylesheet"> 
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery.spellchecker.css" rel="stylesheet">
+		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery-ui.css" rel="stylesheet">   
+		
+		<!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/desktop.css" media="all">-->		
+		<!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/selectbox.css" media="all">-->        
+		<!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/profilePopup.css" rel="stylesheet">-->		
+		<!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/starrate.css" rel="stylesheet">-->
+                <!--<link rel="stylesheet" href="<?php //echo Yii::app()->theme->baseUrl;?>/css/style_header.css" rel="stylesheet">-->
+                
 		<?php Yii::app()->clientScript->registerCoreScript('jquery');?>
                 <!--<script src="<?php //echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>-->
                 <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery-ui.js"></script>

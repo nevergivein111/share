@@ -1,8 +1,8 @@
 <?php
 $baseurl = Yii::app()->theme->baseUrl;
 $clientscript = Yii::app()->clientScript;
-$clientscript->registerCssFile($baseurl . '/css/style.css');
-$clientscript->registerCssFile($baseurl . '/css/reset.css');
+//$clientscript->registerCssFile($baseurl . '/css/style.css');
+//$clientscript->registerCssFile($baseurl . '/css/reset.css');
 ?>
 <div class="mainContainer">
     <div class="leftContainer">
