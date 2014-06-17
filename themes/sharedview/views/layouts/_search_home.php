@@ -1,5 +1,6 @@
 	<input type="text" autocomplete="off" name="header_search" id="header_search" class="searchBox typeahead"
 		   placeholder="Find products by name, brand or category" data-provide="typeahead" value="<?php echo isset($_GET['query']) ? urldecode($_GET['query']) : ''?>">
+           <input type="submit" value="" class="sbmitbg" data-provide="typeahead" >
 
 <script>
 	$(document).ready(function(){

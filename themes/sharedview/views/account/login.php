@@ -42,6 +42,7 @@
                         </div>
                     <?php $this->endWidget();?>
                	</div> 
+                </div>
                 
 <div class="halfContainer">
             	<div class="loginTitle">

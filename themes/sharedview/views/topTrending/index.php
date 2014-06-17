@@ -5,15 +5,22 @@
     $clientscript->registerScriptFile($baseurl . '/js/jquery.mousewheel.min.js',CClientScript::POS_END);
 
 ?>
-
+</div>
+<div class="sliderbg">
+<div class="wrapper">
     <?php $this->renderPartial('_slider');?>
-
+</div>
+    </div>
+    
+    <div class="menumainbg mainslider">
+    		</div>
+<div class="wrapper">
 <div class="mainContainer">
-    <div class="leftContainer" style="width:664px;">
-        <div class="product_list_middle" style="width:100%;">
+    <div class="leftContainer">
+        <div class="product_list_middle" >
 			<?php if(Yii::app()->user->id):?>
 
-            <div class="product_list_main whilteBg" style="width:100%;border:1px solid #CCC;">
+           <div class="product_list_main" style="padding-top:0;">
                 <div class="product_list_title titleCls">
                     <h3>People You are Following</h3>
                 </div>
@@ -49,7 +56,7 @@
             </div>
             <?php endif; ?>
 
-            <div class="product_list_main whilteBg" style="padding-top:0;width:100%;border:1px solid #CCC;">
+             <div class="product_list_main" style="padding-top:0;">
                 <div class="product_cate_wrapper product_list_wrapper">
                     <div class="product_list_title titleCls">
                         <h3>Trending Now</h3>
@@ -67,7 +74,8 @@
                         <ul id="category_right_panel">
                             <li  <?php echo (Yii::app()->session['cat_id'] == 0)?$cl:'';?> data-value="0">
                                 <div class="category_img">
-                                    <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/ic_all.png" alt="All" style="margin:8px 0 0 0;height:32px;" />
+                                    <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/alhoverl.png" alt="All" />
+                                   <!-- <img src="<?php //echo Yii::app()->theme->baseUrl;?>/images/alhoverl.png" alt="All" />-->
                                 </div>
                                 <div class="catName">
                                     <span class="catBtitle">All</span>

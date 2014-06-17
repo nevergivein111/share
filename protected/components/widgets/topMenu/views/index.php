@@ -1,5 +1,7 @@
 <div class="menu">
     <ul>
+    <li><a href="<?php echo Yii::app()->createUrl('topTrending/index')?>"><?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/menuhome.png', '', array('alt' => 'Shareview','class'=>''));?>
+    </a></li>
 	<li> <a href="<?php echo Yii::app()->createUrl('topTrending/index')?>"
 	   class="navButton  <?php echo Yii::app()->controller->id == 'topTrending' ? 'navActive' : '' ?>">Home</a> </li>
 
