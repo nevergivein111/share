@@ -197,7 +197,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-tabs { position: relative; padding:0; zoom: 1; } 
 .ui-tabs .ui-tabs-nav { margin: 0; padding: 0; border:1px solid #dddddd; }
 .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; margin: 0 0 0 0; padding: 0 5px; white-space: nowrap;}
-.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; font-weight:bold; color:#6285b3;font-size:13px; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; font-weight:bold; color:#02383b;font-size:13px; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0;background: #FFF;}
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } 
@@ -223,7 +223,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 0px solid #dddddd; background: #FFF url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
 .ui-widget :active { outline: none; }
-.ui-state-active:after, .ui-state-active:before { top: 100%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } .ui-state-active:after { border-color: rgba(98, 133, 169, 0); border-top-color: #6285b3; border-width: 10px; left: 50%; margin-left: -10px; } .ui-state-active:before { border-color: rgba(221, 221, 221, 0); border-top-color: #dddddd; border-width: 11px; left: 50%; margin-left: -11px; }
+.ui-state-active:after, .ui-state-active:before { top: 100%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } .ui-state-active:after { border-color: rgba(98, 133, 169, 0); border-top-color: #02383b; border-width: 10px; left: 50%; margin-left: -10px; } .ui-state-active:before { border-color: rgba(221, 221, 221, 0); border-top-color: #dddddd; border-width: 11px; left: 50%; margin-left: -11px; }
 
 /* Interaction Cues
 ----------------------------------*/
