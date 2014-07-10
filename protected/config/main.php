@@ -54,9 +54,9 @@ return array(
 					),
 					'mail' => array(
 							  'class' => 'ext.yii-mail.YiiMail',
-							  'transportType' => 'smtp',
+							  'transportType' => 'php',
 							  'transportOptions' => array(
-										'host' => 'retail.smtp.com',
+										'host' => 'smtp.gmail.com',
 										'username' => 'donmj3@gmail.com',
 										'password' => 'fc6551a8',
 										'port' => 2525,

@@ -9275,3 +9275,1098 @@ Stack trace:
 REQUEST_URI=/share/topTrending/index?page=2
 HTTP_REFERER=http://localhost/share/topTrending/index
 ---
+2014/05/29 10:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 10:41:22 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(90): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 10:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 10:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 10:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/05/29 11:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-173-laptop-intel-core-i7-12gb-memory-1tb-hard-drive-black-1334135
+---
+2014/05/29 11:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-14-travelmate-notebook-4-gb-memory-500-gb-hard-drive-5616133
+---
+2014/05/29 11:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 11:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(90): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 11:27:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-173-laptop-intel-core-i7-12gb-memory-1tb-hard-drive-black-1334135
+---
+2014/05/29 11:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 11:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/profile/89
+---
+2014/05/29 11:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 11:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 11:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 11:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/a98824489aa1bebc54c89795d84a991c.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 11:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/user/th...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg
+HTTP_REFERER=http://localhost/share/profile/43
+---
+2014/05/29 11:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/29 13:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/29 14:25:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\share\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\share\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\share\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\share\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\share\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\share\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\share\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/scrapePro...')
+#9 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\share\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/share/admin/scrapeProduct/admin
+HTTP_REFERER=http://localhost/share/admin/store/admin
+---
+2014/05/29 14:29:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\share\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\share\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\share\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\share\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\share\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\share\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\share\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\share\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/share/admin/
+---
+2014/05/30 08:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/30 09:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(90): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/05/30 09:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:15:23 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-173-laptop-intel-core-i7-12gb-memory-1tb-hard-drive-black-1334135
+---
+2014/05/30 09:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:36:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/product/view/acer-14-touch-screen-laptop-intel-core-i5-6gb-memory-500gb-hdd-20gb-solid-state-drive-silver-5009309
+---
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProduct".
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (122)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:36 [warning] [application] Failed to set unsafe attribute "id" of "ReviewProductComponent".
+in C:\wamp\www\share\protected\models\ReviewProduct.php (195)
+in C:\wamp\www\share\protected\controllers\ReviewProductController.php (126)
+in C:\wamp\www\share\index.php (13)
+2014/05/30 09:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 09:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 10:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/05/30 10:36:58 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/06/02 12:44:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\share\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\share\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\share\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\share\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\share\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 C:\wamp\www\share\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 C:\wamp\www\share\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\share\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Product))
+#7 C:\wamp\www\share\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('Product')
+#8 C:\wamp\www\share\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#9 C:\wamp\www\share\protected\controllers\TopTrendingController.php(8): CActiveRecord->__construct()
+#10 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#11 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#16 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\share\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/share/topTrending/index
+---
+2014/06/02 12:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
+2014/06/02 13:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\wamp\www\share\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/sharedvi...')
+#1 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\share\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share/themes/sharedview/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/share/themes/sharedview/css/jquery-ui.css
+---
+2014/06/02 13:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\category\view.php(90): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\share\protected\controllers\CategoryController.php(69): CController->render('view', Array)
+#7 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): CategoryController->actionView()
+#8 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('view')
+#12 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('category/view')
+#13 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\share\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share/category/electronics/laptops?page=3
+HTTP_REFERER=http://localhost/share/category/electronics/laptops
+---
+2014/07/10 09:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' in C:\wamp\www\share\protected\extensions\yiinfinite-scroll\YiinfiniteScroller.php:44
+Stack trace:
+#0 C:\wamp\www\share\framework\web\CBaseController.php(173): YiinfiniteScroller->run()
+#1 C:\wamp\www\share\themes\sharedview\views\topTrending\_list.php(17): CBaseController->widget('ext.yiinfinite-...', Array)
+#2 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#3 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#4 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#5 C:\wamp\www\share\themes\sharedview\views\topTrending\index.php(114): CController->renderPartial('_list', Array)
+#6 C:\wamp\www\share\framework\web\CBaseController.php(126): require('C:\wamp\www\sha...')
+#7 C:\wamp\www\share\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\sha...', Array, true)
+#8 C:\wamp\www\share\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\sha...', Array, true)
+#9 C:\wamp\www\share\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\share\protected\controllers\TopTrendingController.php(25): CController->render('index', Array)
+#11 C:\wamp\www\share\framework\web\actions\CInlineAction.php(49): TopTrendingController->actionIndex()
+#12 C:\wamp\www\share\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\share\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\share\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\share\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp\www\share\framework\web\CWebApplication.php(141): CWebApplication->runController('topTrending/ind...')
+#17 C:\wamp\www\share\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\share\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/share/topTrending/index?page=2
+HTTP_REFERER=http://localhost/share/topTrending/index
+---
