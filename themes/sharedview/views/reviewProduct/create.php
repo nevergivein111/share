@@ -1,8 +1,7 @@
 <?php
 $baseurl = Yii::app()->theme->baseUrl;
 $clientscript = Yii::app()->clientScript;
-$clientscript->registerCssFile($baseurl . '/css/carousel.css');
-$clientscript->registerCssFile($baseurl . '/css/style_home1.css');
+
 ?>
 <div class="mainContainer">
     <?php
@@ -18,24 +17,7 @@ $clientscript->registerCssFile($baseurl . '/css/style_home1.css');
     <div class="rightsideBar">
         	
 		<div class="rightBlock">
-		   <!--
-           <div class="review_tips" id="singleShow">
-				<h3>Review Tips</h3>
-				<h4>Express yourself</h4>
-				<p>Stand out with a unique perspective, and capture the attention of others by writing with style and conciseness.
-				</p>
-
-				<h4>Give it some thought</h4>
-				<p>Use the component ratings to help explain your likes and dislikes. Also, apply personal experiences to give your review context and originality.
-				</p>
-
-				<h4>Have Fun</h4>
-				<p>Let your thoughts flow freely, and remember that no opinion is wrong. If you have a change  of heart after publishing your review, though, It can always be edited or removed anytime later.
-				</p>
-
-			</div>  
-            -->
-
+		   
 			<div class="hide" id="right_rating">
 				<div class="rightblockTitle brdbt mrb5">Reviews for Acer Chromebook</div>
 				<div class="reviewSlot">

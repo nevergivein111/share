@@ -1,14 +1,8 @@
 <?php
 $baseurl = Yii::app()->theme->baseUrl;
 $clientscript = Yii::app()->clientScript;
-$clientscript->registerCssFile($baseurl . '/css/style.css');
-?>
 
-<!--
-<div class="advertise">
-	<img src="<?php echo Yii::app()->theme->baseUrl;?>/images/advertise.jpg" alt="Advertise" />
-</div>
--->
+?>
 
 <div class="staticBox">
     <div class="dealRow" style="margin-left:80px;">
@@ -63,5 +57,5 @@ $clientscript->registerCssFile($baseurl . '/css/style.css');
 		?>
 
 	</div>
-	<?php // $this->renderPartial('_right_bar_listing'); ?>	
+	
 </div>

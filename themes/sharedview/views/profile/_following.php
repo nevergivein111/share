@@ -1,12 +1,3 @@
-
-<!--<div class="followers_block" style="clear:both;">
-		<div class="inline_bl" style="width:130px;">
-			<?php /*echo CHtml::image($data->following->getThumbImage(true), '', array('width' => '35'));*/?>
-			<?php /*echo CHtml::link($data->following->getDisplayName(false), array('/profile/'.$data->following_id))*/?>
-		</div>
-
-</div>-->
-
 <div class="flwBlock">
     <div class="flwProfile">
         <div class="flwPic">

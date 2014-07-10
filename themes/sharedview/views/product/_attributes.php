@@ -1,5 +1,5 @@
 <div class="specification">
-	<!--<div class="tabTitle">Specifications</div>-->
+	
 	<table class="table table-striped specTable" width="100%">
 		<thead>
 			<tr>

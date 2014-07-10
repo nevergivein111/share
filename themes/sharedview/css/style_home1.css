@@ -861,7 +861,8 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, .unedita
 }
 .menu ul li{
 	float:left;
-	margin:3px 0 0 0;	
+	margin:3px 0 0 0;
+	list-style:none;	
 }
 .menu ul li a.navButton {
 	width:auto;

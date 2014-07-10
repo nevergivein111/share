@@ -39,13 +39,12 @@
                         return {results: data};
                     }',
 				),
-				//'formatSelection' => "format", // omitted for brevity, see the source of this page
-				//'escapeMarkup' => "function (m) { return m; }" // we do not want to escape markup si
+				
 			),
 		)); ?>
 		</div>
 	</div>
-	<?php //echo"<pre>";print_r($component);die?>
+	
 	<div id="component_holder" style="width:100%" class="prod_rating">
 		<?php $this->renderPartial("shared/_update_component", array('model' => $model, 'component' => $component)); ?>
 	</div>

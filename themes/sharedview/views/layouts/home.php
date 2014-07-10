@@ -27,8 +27,7 @@
 
 		<div class="home_content_wrapper">
 			<?php  echo $content; ?>
-		</div>
-	
-		<!--<div class="footer_wrapper">&nbsp;</div>-->
+		</div>	
+		
 	</body>
 </html>

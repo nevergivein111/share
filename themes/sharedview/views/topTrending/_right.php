@@ -92,63 +92,7 @@
                         <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_coupon.png" alt="" style="width:55px !important;" />
                     </td>
                 </tr>
-                <!--
-                <tr>
-                    <td class="leaderIndex">6</td>
-                    <td><img src="http://shareview.brians.com/images/avatar.jpeg" alt="" style="width:40px !important;" /></td>
-                    <td class="leaderName">
-                        <span class="ldName">Mike G.</span>
-                        <span>5,400</span>
-                    </td>
-                    <td class="leaderPoints">
-                        <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_175.png" alt="" style="width:55px !important;" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="leaderIndex">7</td>
-                    <td><img src="http://shareview.brians.com/images/avatar.jpeg" alt="" style="width:40px !important;" /></td>
-                    <td class="leaderName">
-                        <span class="ldName">Lyuba T.</span>
-                        <span>5,250</span>
-                    </td>
-                    <td class="leaderPoints">
-                        <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_125.png" alt="" style="width:55px !important;" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="leaderIndex">8</td>
-                    <td><img src="http://shareview.brians.com/images/avatar.jpeg" alt="" style="width:40px !important;" /></td>
-                    <td class="leaderName">
-                        <span class="ldName">Istvan T.</span>
-                        <span>5,100</span>
-                    </td>
-                    <td class="leaderPoints">
-                        <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_100.png" alt="" style="width:55px !important;" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="leaderIndex">9</td>
-                    <td><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/profile_pic7.jpg" alt="" style="width:40px !important;" /></td>
-                    <td class="leaderName">
-                        <span class="ldName">Denis A.</span>
-                        <span>4,950</span>
-                    </td>
-                    <td class="leaderPoints">
-                        <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_75.png" alt="" style="width:55px !important;" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="leaderIndex">10</td>
-                    <td><img src="http://shareview.brians.com/images/avatar.jpeg" alt="" style="width:40px !important;" /></td>
-                    <td class="leaderName">
-                        <span class="ldName">Svetlozar P.</span>
-                        <span>4,800</span>
-                    </td>
-                    <td class="leaderPoints">
-                        <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/amazon_50.png" alt="" style="width:55px !important;" />
-                    </td>
-                </tr>
-                -->
+               
                 <tr>
                     <td class="leaderIndex">25</td>
                     <td><img src="http://shareview.brians.com/uploads/user/thumb/2d9a1646475405c181fb4687c49e374b.jpg" alt="" style="width:40px !important;" /></td>
@@ -165,9 +109,5 @@
         </div>
         <div class="btAllleader"><a href="http://shareview.brians.com/leader">All leaders</a></div>
     </div>
-    <!--
-    <div class="sidebarContain mt5">
-            <img src="<?php // echo Yii::app()->theme->baseUrl;?>/images/athletic_shoes.jpg" alt="Atheltic Shoes" />
-    </div> 
-    -->
+    
 </div>

@@ -5,7 +5,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="language" content="en"/>
-
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 	<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/fonts/fonts.css" media="all">
@@ -33,22 +32,9 @@
             </div>
         </div>
 </div>
-<!--<div class="row-fluid header headerPattern">
-	<div class="container fixContainer">
-		<div class="row-fluid">
-			<div class="span12" align="center">
-				<a href="<?php // echo Yii::app()->createUrl('site/');?>">
-					<img src="<?php // echo Yii::app()->theme->baseUrl;?>/images/logo.png" alt="Logo" class="logo"
-						 style="margin-left:0;"/>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>-->
+
 <!-- End of Header container -->
 <?php echo $content; ?>
-
-<?php //$this->widget('application.modules.hybridauth.widgets.renderProviders'); ?>
 
 </body>
 </html>

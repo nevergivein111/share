@@ -880,3 +880,48 @@ span.helpfulCnt {
 	border:1px solid #dad7d7 !important;
 }
 
+
+.top_space {
+	margin-top: 10px;
+}
+
+.readMoreExpand {
+	color:#1097d0;
+	font-size:12px;
+	position:absolute;
+	right:30px !important;
+	top:0;
+	line-height:65px !important;
+}
+
+.error_wrapper li {
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #c71116;
+	margin: 6px 0 0 0;
+	text-indent: -4px;
+}
+
+.category_link {
+	float: left;
+	color: #808284;
+	font-size: 14px;
+	font-family: 'HelveticaNeueLTCom65Medium';
+	margin-left: 40px;
+	line-height: 20px;
+	clear: left;
+}
+
+.activity_wrapper_back {
+	float: left;
+	width: 170px;
+	padding-left: 40px;
+	height: 41px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	color: #808284;
+	font-family: 'SignikaRegular';
+	font-size: 15px;
+}

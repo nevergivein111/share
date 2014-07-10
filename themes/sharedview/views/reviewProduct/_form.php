@@ -30,7 +30,7 @@
 						)); 
 					?>
                 </div>
-                <?php //echo $form->error($model, 'product_id'); ?>
+                
             </div>
             <?php  if(!isset($_GET['product_id']) && !isset($_GET['id'])):?>
             <?php if (count($model->getErrors('product_id'))==1 || !$model->hasErrors() ):?>

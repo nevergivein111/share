@@ -1,9 +1,4 @@
-<!--<div class="span6">
-	<div class="row">
-		<div class="span1"></div>
-		<div class="span10">
-			<div class="register_box">
-				<h4>Log In</h4>-->
+
 <div id="container">
     	<div class="wrapper">
         	<div class="halfContainer">
@@ -46,85 +41,9 @@
                         	<?php echo CHtml::button('Log In',array('class' => 'loginBtn btnBg','type' => 'submit'));?>
                         </div>
                     <?php $this->endWidget();?>
-               	</div>
-                    
-                    
-                    
-                    
-<!--				<div class="login_wrapper">
-					<?php
-
-					$form = $this->beginWidget('CActiveForm',array(
-							  'id' => 'login_form',
-							  'htmlOptions' => array(),
-							  'enableClientValidation' => false,
-							  'errorMessageCssClass' => 'errorMessage2',
-					  ));
-
-					?>
-					<?php echo $form->error($model, 'incorrect',array('style'=>'float:right;color:red')); ?>
-					<div class="LoginField">
-						<?php echo $form->label($model,'email_address',array('class' => 'loginLbl'));?>
-						<div class="loginInput">
-							<?php echo $form->textField($model,'email',array('class' => $model->hasErrors("email") ? "input_error" : ""));?>
-							<?php echo $form->error($model,'email',array('class' => 'error_message_login'));?>
-						</div>
-					</div>
-
-					<div class="LoginField">
-						<label class="loginLbl">Password</label>
-						<?php // echo $form->label($model,'password',array('class' => 'loginLbl'));?>
-						<div class="loginInput">
-							<?php echo $form->passwordField($model,'password',array('class' => $model->hasErrors("password") ? "input_error" : ""));?>
-							<?php echo $form->error($model,'password',array('class' => 'error_message_login'));?>
-
-						</div>
-					</div>
-					<div class="LoginField">
-						<div class="loginLbl"></div>
-						<div class="loginInput">
-							<?php echo $form->checkBox($model,'rememberMe',array());?>
-							<div class="keepMe">Keep me logged in</div>
-						</div>
-					</div>
-					<div class="LoginField">
-						<div class="loginLbl"></div>
-						<div class="loginInput">
-							<a href="<?=Yii::app()->createUrl('account/forgot')?>">Forgot your password?</a>
-						</div>
-					</div>
-					<div class="LoginField">
-						<div class="loginLbl"></div>
-						<div class="loginInput">
-							<?php echo CHtml::button('Sign In',array('class' => 'btnBackground loginBtn','type' => 'submit'));?>
-
-						</div>
-					</div>
-					<?php $this->endWidget();?>
-				</div>-->
-			</div>
-<!--		</div>
-		<div class="span1"></div>
-	</div> 
-</div>-->
-<!--<div class="span6" style="border-left:1px solid #ced9e3;margin-left:0;">
-	<div class="row">
-		<div class="span1"></div>
-		<div class="span10">
-			<div class="register_box">
-				 <h4>New to Shareview?</h4>
-				<p class="siteInfo">
-					Join the latest community for consumer reviews and prepare to know more about the things people buy and use everyday.
-					Shareview allows members to conduct quick and reliable product research, follow people of interest and make their opinions
-					known through one easy-to-use site. Create an account to begin your experience today.
-				</p>
-				<a href="<?php echo Yii::app()->createUrl('register');?>" class="btnBackground btnSignup">Sign Up</a>
-
-			</div>
-		</div>
-		<div class="span1"></div>
-	</div>
-</div>-->
+               	</div> 
+                </div>
+                
 <div class="halfContainer">
             	<div class="loginTitle">
                 	Don't have an account?
@@ -135,6 +54,6 @@
                 <a href="<?php echo Yii::app()->createUrl('register');?>">
                 	<?php  echo CHtml::button('Sign Up',array('class' => 'btnBg btnSingup'));?>
                 </a>
-<!--                <button href="<?php echo Yii::app()->createUrl('register');?>" class="btnBg btnSingup">Sign Up</a>-->
+
 </div>
 </div></div>

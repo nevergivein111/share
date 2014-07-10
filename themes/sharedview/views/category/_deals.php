@@ -1,22 +1,10 @@
 <div class="maintabContainer" style="background:Transparent;border:0;">
-  <!-- <h1></h1>
-  <div class="sort_dropdown" style="top:10px;right:10px;width:98%;text-align:right;">
-    <div class="dropdown custom_dropdown">
-      <div class="middleLine"></div>
-      <a id="ddSortby" role="button" data-toggle="dropdown" data-target="#" href="/page.html" class="ddText">Sort By <span class="caret"></span> </a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="ddSortby" style="min-width:140px;right:4px;left:auto;top:20px;">
-        <li><a href="#">Most Popular</a></li>
-        <li><a href="#">Top Rated</a></li>
-        <li><a href="#">Most Viewed</a></li>
-      </ul>
-    </div>
-  </div>
-  -->
+  
        <div class="dealRow odd">
             <div class="dealImg">
-            <!-- <div class="deal"></div> -->
+          
                 <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/apple_macbook_air.jpg" alt="Apple MacBook Air" /><br>
-                <!-- <input type="checkbox" value="" name="chkbox" /> -->
+                
                 <span>$150 OFF</span> 
             </div>
             <div class="dealInfo">
@@ -34,7 +22,7 @@
             <div class="dealRow even">
               <div class="dealImg"> 
                 <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/Asus.jpg" alt="Asus" /><br>
-                <!-- <input type="checkbox" value="" name="chkbox" /> -->
+                
                 <span>$100 OFF</span> 
               </div>
               <div class="dealInfo">
@@ -53,7 +41,7 @@
      
             <div class="dealRow odd">
                 <div class="dealImg"> <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/dell.jpg" alt="Dell" /><br>
-                   <!-- <input type="checkbox" value="" name="chkbox" /> -->
+                  
                    <span>$50 OFF</span> 
                   </div>
                 <div class="dealInfo">
@@ -70,7 +58,7 @@
             </div>
           <div class="dealRow even">
               <div class="dealImg"> <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/acer.jpg" alt="Acer" /><br>
-                 <!-- <input type="checkbox" value="" name="chkbox" /> -->
+               
                  <span>$20 OFF</span> 
               </div>
               <div class="dealInfo">

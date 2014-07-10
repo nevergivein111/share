@@ -48,7 +48,7 @@
 			<?php echo $form->dropDownList($model,'day',Additional::getDays(),array('prompt' => 'Day','class' => ($model->hasErrors("birthday") && !$model->day) ? "error_input" : ""));?>
 			<?php echo $form->dropDownList($model,'year',Additional::getYears(1960,2010),array('prompt' => 'Year','class' => ($model->hasErrors("birthday") && !$model->year) ? "error_input" : ""));?>
 		</div>
-		<!--<a href="javascript:void(0)" id="change_pass">Change Password</a>-->
+		
 		<div id="passowrd_block">
 	    <div class="reg_field">
 			<label for="old_password">Old Password</label>

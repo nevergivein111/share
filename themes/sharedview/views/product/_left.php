@@ -12,7 +12,7 @@
 	                    <img src="<?php echo $storeProduct->store->getOrigImage();?>" alt="<?php echo $storeProduct->store->name;?>" style="max-width: 90px; max-height: 30px;"/>
 	                </div>
 	                <div class="pro_desc">
-<!--	                    <a href="http://www.<?php /*echo strtolower(str_replace(' ', '', $storeProduct->store->name));*/?>.com" target="_blank"><?php /*echo $storeProduct->store->name;*/?></a>-->
+
 	                    <p class="pro_price"><?php echo $storeProduct->price;?></p>
 	                </div>
 	                	<a href = "<?php echo  $storeProduct->url;?>" target="_blank">

@@ -9,20 +9,7 @@
         </div>
     </div>
     <div class="seprateLine1"></div>
-    <!--
-    <div class="wlTypeList">
-        <div class="wlType">
-            <div class="wlImg">
-                <img src="<?php // echo Yii::app()->theme->baseUrl; ?>/images/ic_graduation.png" alt="Graduation" />
-            </div>
-            <div class="wlDetail">
-                <div>Graduation<span class="wlTag">Past</span></div>
-                <div>5/15/2014</div>
-                <div class="pledgedItem">1 of 2 items pledged</div>
-            </div>
-        </div>
-    </div>
-    -->
+    
     <div class="wlPro">
         <div class="wlProImg">
             <img src="<?php echo Yii::app()->theme->baseUrl; ?>/images/wlImg1.jpg" alt="" />

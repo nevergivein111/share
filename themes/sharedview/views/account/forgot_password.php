@@ -1,8 +1,3 @@
-<!-- <div class="span6">
-	<div class="row">
-		<div class="span1"></div>
-		<div class="span10">
--->
 <div id="container">
     	<div class="wrapper">
         	<div class="halfContainer">

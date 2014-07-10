@@ -1,8 +1,6 @@
 <?php
     $baseurl = Yii::app()->theme->baseUrl;
     $clientscript = Yii::app()->clientScript;
-    $clientscript->registerCssFile($baseurl . '/css/reset.css');
-    $clientscript->registerCssFile($baseurl . '/css/style.css');
     $cs=Yii::app()->clientScript;
 ?>
 <script>
@@ -20,7 +18,7 @@ $(document).ready(function(){
 
 <div class="advertise">
     <img src="<?php echo Yii::app()->theme->baseUrl;?>/images/advertise1.jpg" alt="Advertise" />
-    <?php // echo CHtml::image(Yii::app()->createUrl('themes/sharedview/images/advertise1.jpg')) ; ?>
+    
 </div>
 <div class="breadcrumbs">
     <?php
@@ -51,7 +49,7 @@ $(document).ready(function(){
 				    </div> 
 
                     <div id="posts" class="maintabContainer" style="border:0;">
-                    <h1><?php  /*?><?php echo CHtml::encode($model->name);?> by <span id="sort_by_name"> Top Rated</span> <?php */?></h1>
+                    <h1></h1>
 					<?php if (count($dataProvider) != 0):?>	
                     <div class="sort_dropdown" style="top:10px;right:10px;width:98%;text-align:right;">
                             <div class="dropdown custom_dropdown">
@@ -108,89 +106,6 @@ $(document).ready(function(){
     </div>
 	
 </div>
-
-
-
-<!--<div class="span2 leftSidebar" style="width:16.53%;">
-	<?php // $this->renderPartial('_category_filter', array('filter' => $filter));?>
-	<div class="hSeprator"></div>
-	<?php //$this->widget('application.components.widgets.copyrightPanel.CopyrightPanel');?>
-</div>
-<div class="span8 centerArea" style="margin-left:0;">
-	<div class="row-fluid">
-		<div class="span12">
-			<div class="product_list_middle">
-				<div class="bread_crumb">
-					<?php
-//					$this->widget('application.components.widgets.myBreadCrumb.MyBreadCrumb', array(
-//						'data' => $model->getBreadcrumb(),
-//						'ampersand' => '->'
-//					));
-					?>
-				</div>
-				<div class="middle_section product_list_main">
-					<div class="product_cate_wrapper product_list_wrapper" style="height: 40px;">
-						<div class="product_list_title">
-							<h3><?php // echo CHtml::encode($model->name);?> by <span id="sort_by_name"> Top Rated</span>
-							</h3>
-						</div>
-						<div class="sort_dropdown">
-							<div class="dropdown custom_dropdown">
-								<a id="ddSortby" role="button" data-toggle="dropdown" data-target="#" href="/page.html">Sort
-									By <span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu" id="top_sort_ul" role="menu" aria-labelledby="ddSortby">
-									<?php
-//									foreach (Product::getProductListSortBy() as $key => $val):?>
-										<li class="dropdown_product_holder <?php // echo ($key == Product::MOST_POPULAR) ? 'checked_filter_active' : ''?>"
-											data-value="<?php // echo $key?>" data-name="<?php // echo $val;?>">
-											<a href="javascript:void(0);">
-												<?php // echo $val;?>
-											</a>
-										</li>
-										<?php // endforeach;?>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<?php // echo CHtml::image(Yii::app()->createUrl('images/preload.gif'), '', array('style' => 'display:none', 'id' => 'loader_image')) ?>
-					<div class="row-fluid">
-						<div id="posts">
-							<?php // foreach ($dataProvider as $data): ?>
-							<?php // $this->renderPartial("_product_view", array('data' => $data)) ?>
-							<?php // endforeach; ?>
-						</div>
-						<?php
-//                                                $this->widget('ext.yiinfinite-scroll.YiinfiniteScroller', array(
-//                                                        'contentSelector' => '#posts',
-//                                                        'itemSelector' => 'div.post',
-//                                                        'loadingText' => 'Loading...',
-//                                                        'donetext' => 'This is the end... my only friend, the end',
-//                                                        'pages' => $product->pages,
-//                                                ));
-                                                ?>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="span2 rightSidebar">
-
-
-	<?php
-
-//	$this->widget('application.components.widgets.suggestedPanel.SuggestedPanel');
-//
-//	$banners = array(
-//		'0' => array('src' => Yii::app()->theme->baseUrl . '/images/banner1.jpg', 'link' => '#')
-//	);
-//	$this->widget('application.components.widgets.bannerPanel.BannerPanel', array('banners' => $banners));
-
-	?>
-
-</div>-->
 
 <script>
 	var filter = new Object();

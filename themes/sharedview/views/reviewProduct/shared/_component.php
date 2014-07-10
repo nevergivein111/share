@@ -8,7 +8,7 @@
 				var rateTxtClass = $(this).parent().attr("id");
 				var tip = $("." + rateTxtClass);
 				tip[0].data = tip[0].data || tip.html();
-				//$(tip).html(link.title || 'value: ' + value);
+				
 			},
 			blur:function (value, link) {
 				$("div.star-rating").removeClass("rate1 rate2 rate3 rate4 rate5 rate_1 rate_2 rate_3 rate_4 rate_5");
@@ -34,7 +34,7 @@
 				if ($(this).parent().hasClass("overallB")) {
 					$(this).parent().find(".rateV").val(value);
 					var starSize = 28;
-					var totalNum = Math.ceil($(".selected").length);//$(".overallB").length;
+					var totalNum = Math.ceil($(".selected").length);
 					var totalVal = 0;
 					$(".overallB").each(function () {
 						totalVal += Number($(this).find(".rateV").val());

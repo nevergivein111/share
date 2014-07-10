@@ -7,7 +7,6 @@
 				var rateTxtClass = $(this).parent().attr("id");
 				var tip = $("." + rateTxtClass);
 				tip[0].data = tip[0].data || tip.html();
-//				$(tip).html(link.title || 'value: ' + value);
 			},
 			blur:function (value, link) {
 				$("div.star-rating").removeClass("rate1 rate2 rate3 rate4 rate5");
@@ -42,7 +41,7 @@
 					var gap = Math.ceil(averageVal) - 1;
 					var overallRate = (starSize * averageVal) + (5 * gap);
 					$("#mark").text(averageVal.toFixed(1));
-					//alert(Math.ceil(averageVal));
+					
 					$(".avarageRate").css({
 						background:"url(<?php echo Yii::app()->theme->baseUrl;?>/images/star" + (Math.ceil(averageVal)) + ".png)",
 						width:overallRate
@@ -109,7 +108,7 @@ if (is_array($component)) {
 								<?php echo CHtml::radioButton("component-$key-rating-$key", false, array('name' => "component-$key-rating-$key", 'value' => '3', 'class' => 'med hover-star'))?>
 								<?php echo CHtml::radioButton("component-$key-rating-$key", false, array('name' => "component-$key-rating-$key", 'value' => '4', 'class' => 'med hover-star'))?>
 								<?php echo CHtml::radioButton("component-$key-rating-$key", false, array('name' => "component-$key-rating-$key", 'value' => '5', 'class' => 'med hover-star'))?>
-								<!-- <span id="com<?php echo $key ?>" class="com<?php echo $key ?> rateStatus"></span> -->
+								
 								<input type="hidden" class="hid-com<?php echo $key ?>" value=""/>
 								<input type="hidden" class="rateV" value=""/>
 						</div>

@@ -9,28 +9,21 @@
 		<link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl;?>/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/fonts/fonts.css" media="all">
 		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap.css" media="all">
-                <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/overwrite.css" media="all">
-		<!--<link rel="stylesheet" href="<?php // echo Yii::app()->theme->baseUrl;?>/css/style.css" media="all">-->
-              
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/desktop.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_our.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/selectbox.css" media="all">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/plugin/css/jquery.rating.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/profilePopup.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery.spellchecker.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery-ui.css" rel="stylesheet">
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/starrate.css" rel="stylesheet">
-                <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_header.css" rel="stylesheet">
+         
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/style_our.css" media="all"> 
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/plugin/css/jquery.rating.css" rel="stylesheet"> 
+         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery.spellchecker.css" rel="stylesheet">
+		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jquery-ui.css" rel="stylesheet">   
+                
 		<?php Yii::app()->clientScript->registerCoreScript('jquery');?>
-                <!--<script src="<?php //echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>-->
-                <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery-ui.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery-ui.js"></script>
 		<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery-ui-1.8.14.custom.min.js"></script>
               
 		<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/bootstrap.js"></script>
-                <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/plugins.js"></script>
-                <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/slider.js"></script>
-                <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/html5shiv-printshiv.js"></script>
-                <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/html5shiv.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/plugins.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/slider.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/html5shiv-printshiv.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl;?>/js/html5shiv.js"></script>
 		<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/custom_checkbox.min.js"></script>
 		<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.selectbox-0.2.min.js"></script>
 		<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl;?>/plugin/js/jquery.rating.js"></script>
@@ -70,7 +63,7 @@
 	</script>
 	<body>
 		<?php echo $this->renderPartial('//layouts/_header');?>
-		<!--<div class="container contentArea fixContainer">--> <div class="" id="container">
+		<div class="" id="container">
 			<?php $this->widget('application.components.widgets.notConfirmEmailMessage.Box');?>
 			<div class="wrapper">
                             

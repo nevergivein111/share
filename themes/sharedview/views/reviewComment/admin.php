@@ -29,7 +29,7 @@
 	<h1 id="main-heading"><?php echo Yii::t('app', 'Manage') . ' ' . GxHtml::encode($model->label(2)); ?></h1>
 </div>
 <p>
-<!--You may optionally enter a comparison operator (&lt;, &lt;=, &gt;, &gt;=, &lt;&gt; or =) at the beginning of each of your search values to specify how the comparison should be done.-->
+
 </p>
 <div id="main-content">
 	<?php $this->renderPartial('_search', array(
@@ -50,7 +50,7 @@
 						),
 						'itemsCssClass' => 'table table-striped',
 						'summaryText' => false,
-						//'filter' => $model,
+						
 						'columns' => array(
 									'id',
 		array(
@@ -70,10 +70,7 @@
 					'filter' => array('0' => Yii::t('app', 'No'), '1' => Yii::t('app', 'Yes')),
 					),
 		'create_date',
-		/*
-		'update_date',
-		'delete_date',
-		*/
+		
 						array(
 							'class' => 'CButtonColumn',
 						),

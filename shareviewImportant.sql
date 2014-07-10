@@ -17,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `shareview`
+-- Database: `teammem_shareview`
 --
-CREATE DATABASE IF NOT EXISTS `shareview` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `shareview`;
+CREATE DATABASE IF NOT EXISTS `teammem_shareview` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `teammem_shareview`;
 
 -- --------------------------------------------------------
 
