@@ -6,13 +6,14 @@
 
 ?>
 </div>
+ 
 <div class="sliderbg">
 <div class="wrapper">
     <?php $this->renderPartial('_slider');?>
 </div>
     </div>
     
-    <div class="menumainbg mainslider">
+    <div class="menumainbg sliderborder mainslider">
     		</div>
 <div class="wrapper">
 <div class="mainContainer">

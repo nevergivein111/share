@@ -3825,6 +3825,11 @@ input[type="color"]:focus,
 	clear:both;
 }
 
+.sliderborder
+{
+	padding:1px 0 0 0 !important;
+}
+
 .mainmenu
 {
 	background: rgba(241,111,92,1);

@@ -1,3 +1,4 @@
+
 <?php
 $slides = Slider::model()->published()->findAll();
 ?>

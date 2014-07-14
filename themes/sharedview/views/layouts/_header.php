@@ -45,7 +45,7 @@
         </div>
         </div>
         
-        <div class="menumainbg">
+       <div class="menumainbg sliderborder">
     </div>
         
         
