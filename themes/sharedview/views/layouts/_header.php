@@ -7,6 +7,10 @@
             </a>
         </div>
         
+        <div class="bannerhead">
+         <?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/advertise.jpg', '', array('alt' => 'Shareview','class'=>''));?>
+        </div>
+        
             <div class="loginclass">
                	 <?php $this->widget('application.components.widgets.userinfo.UserInfo');?>
             </div>

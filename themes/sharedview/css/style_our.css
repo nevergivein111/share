@@ -768,6 +768,8 @@ cursor: pointer;
 
 .wrapper { width:1024px; min-width:1024px; margin:0 auto; }
 .logo { width:100%; text-align:center; margin:10px 0 0 0; }
+.bannerhead {width:600px; float:left; margin:20px 0 0 40px;}
+.bannerhead img { width:600px; }
 .halfContainer { width:42%; margin:10px 1%; padding:3%; float:left; background:#FFF; }
 .loginTitle { float:left; margin:10px 0; font-size:16px; font-weight:bold; clear:both; width:100%; color:#353535; }
 .loginForm { float:left; width:100%; }
@@ -863,7 +865,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02383b', end
 .noteDur { font-size:11px; color:#7f7f7f; }
 .slimScrollBar { z-index:99; }
 /* Home Page */
-.innerlogo { width:225px; float:left; margin:10px 0 0 0; }
+.innerlogo { width:145px; float:left; margin:10px 0 0 0; }
 .innerlogo img { /*width:180px;*/ margin:5px 0 10px 20px; }
 .head_search_wrap { width:610px; float:left; }
 .searchbar { width:100%; float:left; }
